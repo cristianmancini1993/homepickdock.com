@@ -1,64 +1,65 @@
 {
   "meta": {
-    "title": "homepickdock.com — Prodotti utili per casa e giardino, consegna 24/48h",
-    "description": "homepickdock.com: prodotti selezionati per la vita quotidiana, spediti in 24/48h con pagamento alla consegna. Garanzia 30 giorni soddisfatti o rimborsati."
+    "title": "homepickdock.com — Curated products for home and garden, 24-48h delivery",
+    "description": "homepickdock.com: hand-picked products for everyday life, shipped in 24-48h with cash on delivery. 30-day money-back guarantee."
   },
   "hero": {
-    "title": "Prodotti utili per casa e giardino — consegna in 24/48 ore",
-    "subtitle": "Selezioniamo prodotti pratici e di qualità che semplificano la vita quotidiana. Pagamento alla consegna, spedizione gratuita ovunque in Italia, garanzia 30 giorni soddisfatti o rimborsati."
+    "title": "Useful products for home and garden — delivered in 24-48 hours",
+    "subtitle": "We select practical, quality items that make daily life easier. Cash on delivery, free shipping, 30-day money-back guarantee."
   },
   "trust_strip": [
-    { "icon": "🚚", "title": "Consegna 24/48h", "sub": "Spedizione gratuita in tutta Italia" },
-    { "icon": "💵", "title": "Pagamento alla consegna", "sub": "Niente anticipi, paghi al corriere" },
-    { "icon": "🛡️", "title": "Garanzia 30 giorni", "sub": "Soddisfatti o rimborsati" }
+    { "icon": "🚚", "title": "24-48h delivery", "sub": "Free shipping" },
+    { "icon": "💵", "title": "Cash on delivery", "sub": "No prepayment" },
+    { "icon": "🛡️", "title": "30-day guarantee", "sub": "Money-back if you're not satisfied" }
   ],
-  "products_title": "I nostri prodotti",
-  "products_subtitle": "Selezione curata di articoli utili per la vita di tutti i giorni",
+  "products_title": "Our products",
+  "products_subtitle": "A curated selection of useful items for everyday life",
   "products": [
     {
       "slug": "hypertrimmer",
-      "category": "Giardinaggio",
+      "category": "Garden",
       "title": "HyperTrimmer™ 3000",
-      "desc": "Tagliaerba e decespugliatore a batteria 48V. Senza cavi, senza benzina. Doppia batteria fino a 6h di autonomia.",
-      "price_old": "159,80",
-      "price_new": "79,90",
+      "desc": "48V battery grass trimmer. No cables, no petrol. Dual battery, up to 6h runtime.",
+      "price_old": "159.80",
+      "price_new": "79.90",
       "currency": "€",
       "image": "/assets/img/products/hypertrimmer/hero.jpg",
-      "image_alt": "HyperTrimmer™ 3000 — tagliaerba a batteria",
-      "cta": "Scopri di più →"
+      "image_alt": "HyperTrimmer™ 3000 — battery grass trimmer",
+      "cta": "Learn more →"
     }
   ],
   "why_us": {
-    "title": "Perché scegliere homepickdock.com",
+    "title": "Why homepickdock.com",
     "items": [
       {
         "icon": "🎯",
-        "title": "Prodotti che funzionano davvero",
-        "text": "Selezioniamo solo prodotti che testiamo personalmente. Non vendiamo gadget inutili: ogni articolo che trovi su homepickdock.com risolve un problema concreto della vita di tutti i giorni."
+        "title": "Products that actually work",
+        "text": "We only list items we test ourselves. No filler gadgets: every product on homepickdock.com solves a real everyday problem."
       },
       {
         "icon": "💵",
-        "title": "Paghi solo quando ricevi il pacco",
-        "text": "Niente anticipi, niente carte di credito, niente sorprese. Il pagamento avviene in contanti al corriere, quando il prodotto è già a casa tua. Se qualcosa non va, rifiuti la consegna e non paghi nulla."
+        "title": "Pay only when the parcel arrives",
+        "text": "No deposits, no credit cards, no surprises. You pay cash to the courier when the product is at your door. If something is wrong, refuse the delivery and pay nothing."
       },
       {
         "icon": "🤝",
-        "title": "Assistenza clienti italiana",
-        "text": "Il nostro call center è basato in Italia, gli operatori parlano italiano e rispondono entro 1 ora dalla tua richiesta. Per noi un cliente non è un numero d'ordine: è una persona."
+        "title": "Local customer support",
+        "text": "Native-language support across Europe. We reply within 1 hour on weekdays. You're never just an order number."
       }
     ]
   },
   "customer_reviews": {
-    "title": "Cosa dicono i nostri clienti",
-    "score": "4,8",
+    "title": "What our customers say",
+    "score": "4.8",
     "stars": "★★★★★",
-    "count": "Su oltre 3.842 recensioni verificate"
+    "count": "Based on 3,842 verified reviews"
   },
   "footer": {
-    "tagline": "Prodotti utili per la vita quotidiana, consegna in 24-48 ore con pagamento alla consegna.",
+    "tagline": "Useful products for everyday life, delivered in 24-48 hours with cash on delivery.",
     "company_info": [
       "<strong>Netmart LLC</strong>",
       "County of Sussex 16192 Coastal Hwy",
-      "Lewes, DE 19958-3608, United States"    ]
+      "Lewes, DE 19958-3608, United States"
+    ]
   }
 }
