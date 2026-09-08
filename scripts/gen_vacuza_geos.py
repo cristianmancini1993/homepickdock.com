@@ -156,6 +156,7 @@ GTAG = """<!-- Google tag (gtag.js) -->
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'AW-18373055367');
+  gtag('config', 'AW-18430324200');
 </script>"""
 
 INDEX_TMPL = """<!DOCTYPE html>

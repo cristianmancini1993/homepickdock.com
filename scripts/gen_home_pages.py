@@ -66,6 +66,7 @@ GTAG = """<!-- Google tag (gtag.js) -->
   gtag('js', new Date());
 
   gtag('config', 'AW-18373055367');
+  gtag('config', 'AW-18430324200');
 </script>"""
 
 
