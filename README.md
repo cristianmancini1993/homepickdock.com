@@ -7,7 +7,7 @@ Static HTML/CSS/JS multi-geo e-commerce site for Cash On Delivery campaigns (Met
 ## Quick facts
 
 - **Domain**: homepickdock.com
-- **Company**: Netmart LLC — County of Sussex 16192 Coastal Hwy, Lewes, DE 19958-3608, United States
+- **Company**: eazy commerce srls — STRADA IV DESTRA, Via Lemitone 13, 81030 Casaluce, Italia
 - **Contact email**: info@homepickdock.com (auto-derived from domain)
 - **First product**: HyperTrimmer™ 3000 (slug: `hypertrimmer`) — battery-powered grass trimmer
 - **Geos active**: 18 (it, es, fr, de, pt, gr, bg, ro, cz, pl, ee, lv, lt, hr, hu, si, sk, en)
@@ -143,6 +143,6 @@ Then add the product card to each `[geo]/index.html` and the URLs to `sitemap.xm
 
 ## License & ownership
 
-© 2026 Netmart LLC — All rights reserved.
+© 2026 eazy commerce srls — All rights reserved.
 
 Generated with the Landing Factory multi-geo static template.

@@ -1,0 +1,43 @@
+---
+description: Legal company details to use in footers, legal pages and structured data
+alwaysApply: true
+---
+
+# Dati aziendali homepickdock.com
+
+Ogni pagina nuova o modificata (footer, pagine legali, thank-you page, JSON-LD,
+`content/*/policies.json`, script generatori) deve usare questi dati. Non usare
+`Netmart LLC` né l'indirizzo del Delaware: sono l'entità precedente.
+
+- Ragione sociale: `eazy commerce srls`
+- Indirizzo: `STRADA IV DESTRA, Via Lemitone 13, 81030 Casaluce, Italia`
+- Email di contatto: `info@homepickdock.com`
+
+Formato footer su tre righe:
+
+```html
+<li><strong>eazy commerce srls</strong></li>
+<li>STRADA IV DESTRA, Via Lemitone 13</li>
+<li>81030 Casaluce, Italia</li>
+```
+
+Formato su una riga (pagine legali, meta description):
+
+```
+eazy commerce srls — STRADA IV DESTRA, Via Lemitone 13, 81030 Casaluce, Italia
+```
+
+JSON-LD `PostalAddress`:
+
+```json
+{
+  "@type": "PostalAddress",
+  "streetAddress": "STRADA IV DESTRA, Via Lemitone 13",
+  "addressLocality": "Casaluce",
+  "postalCode": "81030",
+  "addressCountry": "IT"
+}
+```
+
+Nella prosa localizzata usa il nome del paese nella lingua della pagina
+(Italy, Italien, Italie, Włochy, Olaszország, Ιταλία, …), non `Italia` ovunque.

@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-08"
 DOMAIN = "homepickdock.com"
-COMPANY = "Netmart LLC"
+COMPANY = "eazy commerce srls"
 
 GEOS = [
     "it", "es", "fr", "de", "pt", "gr", "bg", "ro", "cz", "pl",
