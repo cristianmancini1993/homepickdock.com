@@ -7,6 +7,9 @@
   const C = window.SITE_CONFIG || {};
   const CLICK_ID_KEYS = ['gclid', 'gbraid', 'wbraid'];
   const DEFAULT_GOOGLE_ADS_SEND_TO = 'AW-18373055367/cCCpCM3jueAcEIen-rhE';
+  // Official Google Ads "Acquisto" event on thank-you pages, immediately after the Google tag:
+  // send_to: AW-18430324200/IIsjCPyKrPEcEOjbodRE
+  const ACQUISTO_SEND_TO = 'AW-18430324200/IIsjCPyKrPEcEOjbodRE';
   const CASHBOLT_SUBMIT_SESSION_KEY = 'df_cashbolt_submit';
 
   function getURLParam(name) {
@@ -216,6 +219,14 @@
     }
 
     if (!window.gtag) return false;
+
+    const sendToEarly = options.send_to || cfg.GOOGLE_ADS_CONVERSION_SEND_TO || DEFAULT_GOOGLE_ADS_SEND_TO;
+    if (
+      sendToEarly === ACQUISTO_SEND_TO &&
+      document.documentElement.innerHTML.indexOf('Event snippet for Acquisto conversion page') !== -1
+    ) {
+      return false;
+    }
 
     const T = getTrackingContext();
     const p = new URLSearchParams(window.location.search);

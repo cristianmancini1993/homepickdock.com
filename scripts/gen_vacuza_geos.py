@@ -160,6 +160,15 @@ GTAG = """<!-- Google tag (gtag.js) -->
   gtag('config', 'AW-18373055367');
 </script>"""
 
+ACQUISTO_SNIPPET = """<!-- Event snippet for Acquisto conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18430324200/IIsjCPyKrPEcEOjbodRE',
+      'transaction_id': ''
+      // 'new_customer': true /* calculate dynamically, populate with true/false */,
+  });
+</script>"""
+
 INDEX_TMPL = """<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -366,6 +375,8 @@ def transform_thank_you(html: str, offer_id: str, cfg: dict) -> str:
     html = re.sub(r"PRICE: [0-9.]+", f"PRICE: {cfg['price']}", html)
     html = html.replace(f"/{source_geo}/vacuza/", f"/{geo}/{slug}/")
     html = re.sub(r"gtag\('event', 'conversion'.*?</script>\s*", "", html, flags=re.DOTALL)
+    if "IIsjCPyKrPEcEOjbodRE" not in html:
+        html = html.replace(GTAG, GTAG + "\n" + ACQUISTO_SNIPPET, 1)
     html = html.replace(
         "</body>",
         f"""<script>
