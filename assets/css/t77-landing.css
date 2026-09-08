@@ -5,6 +5,10 @@ html, body {
   overflow-x: hidden;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .trim-hero {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -28,6 +32,8 @@ html, body {
 .trim-badge {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
   background: #e9f7ed;
   color: #146b32;
   font-size: 15px;
@@ -35,16 +41,18 @@ html, body {
   padding: 9px 14px;
   border-radius: 999px;
   margin-bottom: 18px;
+  overflow-wrap: anywhere;
 }
 
 .trim-hero h1 {
-  font-size: clamp(38px, 5vw, 62px);
+  font-size: clamp(32px, 5vw, 62px);
   line-height: 0.98;
   letter-spacing: -1.8px;
   color: #151515;
   margin: 0 0 18px;
   font-weight: 900;
   max-width: 700px;
+  overflow-wrap: anywhere;
 }
 
 .trim-green-highlight {
@@ -140,19 +148,22 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 100%;
+  max-width: 420px;
   background: #007e41;
   color: #ffffff !important;
   text-decoration: none;
   font-size: 19px;
   font-weight: 900;
-  padding: 18px 30px;
+  padding: 18px 24px;
   border-radius: 14px;
   box-shadow: 0 12px 26px rgba(0,126,65,0.28);
   transition: all 0.2s ease;
   text-align: center;
-  line-height: 1;
+  line-height: 1.2;
   box-sizing: border-box;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }
 
 .trim-cta:hover {
@@ -251,6 +262,7 @@ html, body {
   margin-bottom: 24px;
   box-shadow: 0 12px 28px rgba(239,47,47,0.18);
   width: fit-content;
+  max-width: 100%;
 }
 .c4x-price-top {
   display: flex;
@@ -1793,3 +1805,107 @@ img { max-width: 100%; height: auto; display: block; }
 .site-footer__bottom strong { color:#cbd5e1; }
 .site-footer__bottom a { color:#cbd5e1; text-decoration:none; font-weight:700; }
 .site-footer__bottom a:hover { color:#fff; text-decoration:underline; }
+
+.sec-cta {
+  margin-top: 28px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.sec-cta__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  background: #007e41;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 16px 18px;
+  border-radius: 14px;
+  box-shadow: 0 12px 26px rgba(0,126,65,0.28);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  box-sizing: border-box;
+}
+
+.sec-cta__btn:hover { transform: translateY(-2px); }
+
+.sec-cta--on-dark .sec-cta__btn {
+  background: #7df0a8;
+  color: #0b1410 !important;
+  box-shadow: 0 12px 26px rgba(0,0,0,0.35);
+}
+
+.problem-copy .sec-cta,
+.t77bx-body .sec-cta {
+  margin-top: 24px;
+}
+
+@media (min-width: 901px) {
+  .problem-copy .sec-cta,
+  .t77bx-body .sec-cta { text-align: left; }
+  .problem-copy .sec-cta__btn,
+  .t77bx-body .sec-cta__btn { margin-left: 0; }
+}
+
+.c4x-trust-box .sec-cta { margin-top: 22px; }
+.c4x-warning-box .sec-cta { margin-top: 18px; }
+.c4x-warning-box .sec-cta__btn { max-width: 100%; }
+
+.t77bx-txt { min-width: 0; overflow-wrap: anywhere; }
+.t77bx-chip { max-width: calc(100% - 32px); overflow-wrap: anywhere; }
+.t77bx-head h2,
+.problem-head h2,
+.kit-header h2,
+.reviews-header h2,
+.faq-header h2,
+.t77bn-c h3 {
+  overflow-wrap: anywhere;
+}
+
+.kit-component,
+.kit-benefit,
+.faq-item summary span,
+.problem-loop,
+.problem-truth p,
+.c4x-trust-header,
+.c4x-stock-bar-label {
+  overflow-wrap: anywhere;
+}
+
+.faq-item summary span { min-width: 0; }
+
+.tm-order-form button[type="submit"] {
+  max-width: 100%;
+  white-space: normal;
+  padding: 16px 12px;
+}
+
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 900px) {
+  .trim-hero h1 { font-size: 30px; letter-spacing: -0.8px; }
+  .sec-cta { margin-top: 22px; }
+  .sec-cta__btn { font-size: 16.5px; padding: 15px 14px; }
+  .t77-order { padding: 0 16px; }
+  .t77-order-card { padding: 22px 16px 18px; }
+  .c4x-order-stock-section { padding: 0 16px; }
+  .c4x-trust-box { margin-left: 16px; margin-right: 16px; }
+  .problem-loop,
+  .problem-truth {
+    max-width: 100%;
+  }
+  .t77bn-trust { justify-content: center; }
+  .t77bn-trust span,
+  .faq-trust-box div {
+    max-width: 100%;
+    text-align: center;
+  }
+  .trim-cta { margin-left: auto; margin-right: auto; }
+}
