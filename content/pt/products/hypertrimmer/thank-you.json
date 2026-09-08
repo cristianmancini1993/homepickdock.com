@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Ordine ricevuto — Attendi la chiamata di conferma | HyperTrimmer™ 3000",
+    "description": "Il tuo ordine HyperTrimmer™ 3000 è stato ricevuto. Un nostro operatore ti chiamerà entro 1 ora per confermare consegna e indirizzo.",
+    "currency": "EUR",
+    "price": "79.90"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "⚠️ ATTENZIONE: il tuo ordine è quasi completo (90%)",
+    "text": "Hai compilato i tuoi dati correttamente, ma l'ordine NON è ancora finalizzato. Per completarlo dobbiamo confermare insieme l'indirizzo per telefono. Tieni il cellulare a portata di mano nei prossimi minuti."
+  },
+  "next_steps": {
+    "title": "Cosa succede adesso?",
+    "subtitle": "3 passi semplici per ricevere il tuo HyperTrimmer™ 3000",
+    "steps": [
+      {
+        "title": "Riceverai una chiamata entro 1 ora",
+        "text": "Un nostro operatore italiano ti contatterà al numero che hai indicato per confermare l'ordine, l'indirizzo e darti la finestra di consegna."
+      },
+      {
+        "title": "Confermi i dati al telefono — bastano 30 secondi",
+        "text": "Ti chiediamo solo di confermare nome, indirizzo e di scegliere se preferisci la consegna in mattinata o nel pomeriggio."
+      },
+      {
+        "title": "Ricevi il prodotto in 24-48h e paghi alla consegna",
+        "text": "Il corriere ti consegna HyperTrimmer™ 3000 a casa entro 1-2 giorni lavorativi. Paghi in contanti solo quando hai il pacco in mano."
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "Il tuo posto è prenotato — ma non a lungo",
+    "text": "Stiamo gestendo decine di ordini in questo momento. Se non rispondi alla chiamata di conferma entro 24 ore, il tuo HyperTrimmer™ 3000 verrà rilasciato e venduto al cliente successivo. Tieni il telefono acceso."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "Orari del nostro call center",
+    "hours": [
+      "Lun – Ven: 09:00 – 19:00",
+      "Sabato: 09:00 – 13:00",
+      "Domenica: chiuso"
+    ],
+    "promise_title": "🤝 La nostra promessa Cash On Delivery",
+    "promise_text": "Niente carte, niente bonifici, niente anticipi. Vedi il prodotto, lo provi, se ti convince paghi in contanti al corriere. Se qualcosa non va, rifiuti la consegna e non paghi nulla. Trasparenza totale."
+  },
+  "product_recall": {
+    "image_alt": "HyperTrimmer™ 3000 — kit completo",
+    "title": "Stai per ricevere un decespugliatore che cambierà il tuo modo di curare il giardino",
+    "text": "Niente più benzina che puzza. Niente più cavi che si impigliano. Niente più schiena spezzata. HyperTrimmer™ 3000 è leggero, silenzioso, potente e arriva pronto all'uso con tutto il necessario nella confezione. In pochi giorni il tuo giardino sarà perfetto.",
+    "whatsapp_button": "💬 Non puoi rispondere ora? Conferma via WhatsApp",
+    "whatsapp_link": "https://wa.me/393000000000?text=Ciao%2C%20vorrei%20confermare%20il%20mio%20ordine%20HyperTrimmer%203000"
+  }
+}

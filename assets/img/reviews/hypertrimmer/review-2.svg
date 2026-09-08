@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Verified HyperTrimmer customer 2</title>
+  <desc id="desc">Stylized customer review image for HyperTrimmer 3000.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#g)"/>
+  <circle cx="92" cy="82" r="46" fill="#0284c7" opacity="0.14"/>
+  <circle cx="546" cy="290" r="74" fill="#0284c7" opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <rect x="58" y="64" width="220" height="232" rx="28" fill="#fff"/>
+    <circle cx="168" cy="136" r="54" fill="#0284c7" opacity="0.95"/>
+    <text x="168" y="153" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="42" font-weight="800" fill="#fff">LB</text>
+    <path d="M91 253c16-47 138-47 154 0" fill="#0284c7" opacity="0.18"/>
+  </g>
+  <g transform="translate(322 76)">
+    <rect x="0" y="0" width="230" height="138" rx="20" fill="#fff" filter="url(#shadow)"/>
+    <rect x="22" y="26" width="112" height="58" rx="12" fill="#0284c7" opacity="0.16"/>
+    <path d="M44 84h132M62 108h92" stroke="#0284c7" stroke-width="13" stroke-linecap="round" opacity="0.65"/>
+    <path d="M152 44l42 42M194 86l-23 23" stroke="#0c4a6e" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="152" cy="44" r="17" fill="#0284c7"/>
+  </g>
+  <g font-family="Montserrat, Arial, sans-serif" fill="#0c4a6e">
+    <text x="322" y="262" font-size="26" font-weight="800">Cliente verificato</text>
+    <text x="322" y="296" font-size="22" fill="#0284c7" font-weight="800">★★★★★</text>
+  </g>
+</svg>

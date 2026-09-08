@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/img/products/*/_README.txt
+Disallow: /*/hypertrimmer/thank-you.html
+
+Sitemap: https://homepickdock.com/sitemap.xml

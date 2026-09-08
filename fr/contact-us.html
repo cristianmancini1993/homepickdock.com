@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18373055367"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18373055367');
+</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Contactez-nous | homepickdock.com</title>
+<meta content="Contactez homepickdock.com (Netmart LLC) : email info@homepickdock.com, siège social à Lewes, Delaware, États-Unis, assistance dans votre langue maternelle du lundi au samedi." name="description"/>
+<meta content="info@homepickdock.com" name="contact"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/variables.css" rel="stylesheet"/>
+<link href="/assets/css/reset.css" rel="stylesheet"/>
+<link href="/assets/css/components.css" rel="stylesheet"/>
+<link href="/assets/css/home.css" rel="stylesheet"/>
+<style>
+  .contact-grid { display: grid; gap: 2rem; grid-template-columns: 1fr; }
+  @media (min-width: 768px) { .contact-grid { grid-template-columns: 1fr 1fr; } }
+  .contact-card { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm); }
+  .contact-card__icon { width: 48px; height: 48px; border-radius: 9999px; background: var(--color-success-bg); color: var(--color-success-text); display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1rem; }
+  .contact-card h3 { margin-bottom: 0.5rem; }
+  .contact-card p { color: var(--color-text-muted); margin-bottom: 0.5rem; }
+  .contact-form { background: #fff; border: 2px solid var(--color-primary); border-radius: var(--radius-lg); padding: 2rem; max-width: 560px; margin: 2rem auto 0; box-shadow: var(--shadow); }
+  .contact-form textarea { width: 100%; padding: 0.75rem 1rem; border: 2px solid var(--color-border); border-radius: var(--radius); font-size: 1rem; font-family: inherit; min-height: 140px; resize: vertical; }
+  .contact-form textarea:focus { outline: none; border-color: var(--color-primary); }
+</style>
+<script>window.SITE_CONFIG = { GEO: 'fr', COOKIE_TEXT: "Nous utilisons des cookies techniques et des cookies tiers.", COOKIE_ACCEPT: "Accepter", COOKIE_LEARN: "En savoir plus" };</script>
+<script defer="" src="/assets/js/main.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('contact-form');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const subject = encodeURIComponent('[homepickdock.com] Inquiry from ' + (data.get('name') || ''));
+    const body = encodeURIComponent(
+      'Name: ' + (data.get('name') || '') + '\n' +
+      'Email: ' + (data.get('email') || '') + '\n' +
+      'Phone: ' + (data.get('phone') || '') + '\n' +
+      'Order number: ' + (data.get('order') || '') + '\n\n' +
+      'Message:\n' + (data.get('message') || '')
+    );
+    window.location.href = 'mailto:info@homepickdock.com?subject=' + subject + '&body=' + body;
+  });
+});
+</script>
+</head>
+<body>
+<header class="site-header"><div class="site-header__inner">
+<a class="site-logo" href="/"><span class="site-logo__text"><span class="site-logo__text-primary">homepickdock</span><span class="site-logo__text-accent">.com</span></span></a>
+<nav class="site-header__nav"><a href="/">Accueil</a> <a href="/fr/about-us.html">À propos de nous</a></nav>
+</div></header>
+<main class="policy-page">
+<div class="container policy-page__inner">
+<h1>Contactez-nous</h1>
+<p class="policy-page__updated">Besoin d'aide pour une commande, une expédition ou un remboursement ? Écrivez-nous – nous répondons généralement dans un délai d’une heure en semaine.</p>
+<div class="contact-grid">
+<div class="contact-card">
+<div class="contact-card__icon">📧</div>
+<h3>E-mail</h3>
+<p>Pour toute demande, écrivez à :</p>
+<p>info@homepickdock.com</p>
+<p style="font-size:0.875rem">Nous répondons sous 1 heure en semaine, sous 24 heures le week-end.</p>
+</div>
+<div class="contact-card">
+<div class="contact-card__icon">🕒</div>
+<h3>Horaires du centre d'appels</h3>
+<p style="margin-bottom:0.25rem">Du lundi au vendredi : 09h00 – 19h00 CET</p>
+<p style="margin-bottom:0.25rem">Samedi : 09h00 – 13h00 CET</p>
+<p>Dimanche : fermé</p>
+</div>
+<div class="contact-card">
+<div class="contact-card__icon">📍</div>
+<h3>Quartier général</h3>
+<p>Netmart LLC</p>
+<p>County of Sussex 16192 Coastal Hwy, Lewes, DE 19958-3608, United States</p>
+</div>
+<div class="contact-card">
+<div class="contact-card__icon">💬</div>
+<h3>Questions fréquemment posées</h3>
+<p>Avant de nous contacter, jetez un œil à la FAQ : vous trouverez peut-être une réponse immédiate :</p>
+<p><a href="/fr/hypertrimmer/landing.html#faq" style="color:var(--color-primary);text-decoration:underline">Aller à la FAQ →</a></p>
+</div>
+</div>
+<form class="contact-form" id="contact-form" novalidate="">
+<h2 style="text-align:center;margin-bottom:0.5rem">Envoyez-nous un message</h2>
+<p style="text-align:center;color:var(--color-text-muted);margin-bottom:1.5rem;font-size:0.875rem">Remplissez le formulaire et votre client de messagerie s'ouvrira avec le message prêt à être envoyé à info@homepickdock.com</p>
+<div class="cod-form__field">
+<label class="cod-form__label" for="c-name">Nom et prénom *</label>
+<input class="cod-form__input" id="c-name" minlength="3" name="name" required="" type="text"/>
+</div>
+<div class="cod-form__field">
+<label class="cod-form__label" for="c-email">E-mail *</label>
+<input class="cod-form__input" id="c-email" name="email" required="" type="email"/>
+</div>
+<div class="cod-form__field">
+<label class="cod-form__label" for="c-phone">Téléphone (facultatif)</label>
+<input class="cod-form__input" id="c-phone" name="phone" type="tel"/>
+</div>
+<div class="cod-form__field">
+<label class="cod-form__label" for="c-order">Numéro de commande (si vous avez déjà acheté)</label>
+<input class="cod-form__input" id="c-order" name="order" type="text"/>
+</div>
+<div class="cod-form__field">
+<label class="cod-form__label" for="c-message">Votre message *</label>
+<textarea id="c-message" name="message" required=""></textarea>
+</div>
+<button class="cta-button" type="submit">Envoyer un message</button>
+<p style="text-align:center;margin-top:1rem;font-size:0.875rem;color:var(--color-text-muted)">🔒 Nous traitons vos données conformément à notre politique de confidentialité</p>
+</form>
+</div>
+</main>
+<footer class="site-footer"><div class="container">
+<div class="site-footer__grid">
+<div><a class="site-logo" href="/"><span class="site-logo__text" style="display:inline"><span class="site-logo__text-primary">homepickdock</span><span class="site-logo__text-accent">.com</span></span></a></div>
+<div><h4 class="site-footer__heading">Information</h4><ul class="site-footer__list">
+<li><a href="/fr/about-us.html">À propos de nous</a></li>
+<li><a href="/fr/contact-us.html">Contactez-nous</a></li>
+<li><a href="/fr/privacy-policy.html">politique de confidentialité</a></li>
+<li><a href="/fr/terms-conditions.html">Conditions générales</a></li>
+<li><a href="/fr/cookie-policy.html">Politique en matière de cookies</a></li>
+<li><a href="/fr/shipping-policy.html">Politique d'expédition</a></li>
+<li><a href="/fr/refund-policy.html">Politique de remboursement</a></li>
+</ul></div>
+<div><h4 class="site-footer__heading">Contact</h4><ul class="site-footer__list">
+<li>Netmart LLC</li>
+<li>County of Sussex 16192 Coastal Hwy, Lewes, DE 19958-3608, United States</li>
+<li><a href="mailto:info@homepickdock.com">info@homepickdock.com</a></li>
+</ul></div>
+</div>
+<div class="site-footer__bottom">© <span data-year="">2026</span> <strong>Netmart LLC</strong> — All rights reserved. <a href="/">homepickdock.com</a></div>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "homepickdock.com — Prodotti utili per casa e giardino, consegna 24/48h",
+    "description": "homepickdock.com: prodotti selezionati per la vita quotidiana, spediti in 24/48h con pagamento alla consegna. Garanzia 30 giorni soddisfatti o rimborsati."
+  },
+  "hero": {
+    "title": "Prodotti utili per casa e giardino — consegna in 24/48 ore",
+    "subtitle": "Selezioniamo prodotti pratici e di qualità che semplificano la vita quotidiana. Pagamento alla consegna, spedizione gratuita ovunque in Italia, garanzia 30 giorni soddisfatti o rimborsati."
+  },
+  "trust_strip": [
+    { "icon": "🚚", "title": "Consegna 24/48h", "sub": "Spedizione gratuita in tutta Italia" },
+    { "icon": "💵", "title": "Pagamento alla consegna", "sub": "Niente anticipi, paghi al corriere" },
+    { "icon": "🛡️", "title": "Garanzia 30 giorni", "sub": "Soddisfatti o rimborsati" }
+  ],
+  "products_title": "I nostri prodotti",
+  "products_subtitle": "Selezione curata di articoli utili per la vita di tutti i giorni",
+  "products": [
+    {
+      "slug": "hypertrimmer",
+      "category": "Giardinaggio",
+      "title": "HyperTrimmer™ 3000",
+      "desc": "Tagliaerba e decespugliatore a batteria 48V. Senza cavi, senza benzina. Doppia batteria fino a 6h di autonomia.",
+      "price_old": "159,80",
+      "price_new": "79,90",
+      "currency": "€",
+      "image": "/assets/img/products/hypertrimmer/hero.jpg",
+      "image_alt": "HyperTrimmer™ 3000 — tagliaerba a batteria",
+      "cta": "Scopri di più →"
+    }
+  ],
+  "why_us": {
+    "title": "Perché scegliere homepickdock.com",
+    "items": [
+      {
+        "icon": "🎯",
+        "title": "Prodotti che funzionano davvero",
+        "text": "Selezioniamo solo prodotti che testiamo personalmente. Non vendiamo gadget inutili: ogni articolo che trovi su homepickdock.com risolve un problema concreto della vita di tutti i giorni."
+      },
+      {
+        "icon": "💵",
+        "title": "Paghi solo quando ricevi il pacco",
+        "text": "Niente anticipi, niente carte di credito, niente sorprese. Il pagamento avviene in contanti al corriere, quando il prodotto è già a casa tua. Se qualcosa non va, rifiuti la consegna e non paghi nulla."
+      },
+      {
+        "icon": "🤝",
+        "title": "Assistenza clienti italiana",
+        "text": "Il nostro call center è basato in Italia, gli operatori parlano italiano e rispondono entro 1 ora dalla tua richiesta. Per noi un cliente non è un numero d'ordine: è una persona."
+      }
+    ]
+  },
+  "customer_reviews": {
+    "title": "Cosa dicono i nostri clienti",
+    "score": "4,8",
+    "stars": "★★★★★",
+    "count": "Su oltre 3.842 recensioni verificate"
+  },
+  "footer": {
+    "tagline": "Prodotti utili per la vita quotidiana, consegna in 24-48 ore con pagamento alla consegna.",
+    "company_info": [
+      "<strong>Netmart LLC</strong>",
+      "County of Sussex 16192 Coastal Hwy",
+      "Lewes, DE 19958-3608, United States"    ]
+  }
+}

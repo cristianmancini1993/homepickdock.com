@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "title": "HyperTrimmer™ 3000 — Tagliaerba a batteria 4-in-1 | -50% Solo Oggi",
+    "description": "HyperTrimmer™ 3000: tagliaerba e decespugliatore a batteria 48V. Taglia erba alta, arbusti e bordi senza cavi e senza benzina. -50% solo oggi, pagamento alla consegna, spedizione gratuita 24/48h.",
+    "og_image": "/assets/img/products/hypertrimmer/og-image.jpg",
+    "currency": "EUR",
+    "price": "79.90"
+  },
+  "banner_urgency": {
+    "main": "🔥 OFFERTA -50%: Solo oggi 79€ invece di 159€",
+    "sub": "Spedizione GRATUITA in 24/48h • Pagamento alla consegna • Ultimi pezzi disponibili"
+  },
+  "popup_purchases": [
+    { "initial": "M", "name": "Marco R.", "message": " ha appena ordinato HyperTrimmer™ 3000", "time": "2 minuti fa, Roma" },
+    { "initial": "L", "name": "Laura B.", "message": " ha appena confermato l'ordine", "time": "5 minuti fa, Milano" },
+    { "initial": "G", "name": "Giorgio T.", "message": " ha appena acquistato HyperTrimmer™ 3000", "time": "8 minuti fa, Torino" },
+    { "initial": "S", "name": "Silvia M.", "message": " ha completato l'ordine", "time": "12 minuti fa, Napoli" },
+    { "initial": "A", "name": "Andrea P.", "message": " ha appena ordinato (consegna domani)", "time": "15 minuti fa, Bologna" },
+    { "initial": "F", "name": "Francesca D.", "message": " ha confermato il suo ordine", "time": "21 minuti fa, Firenze" },
+    { "initial": "R", "name": "Roberto L.", "message": " ha appena acquistato HyperTrimmer™ 3000", "time": "27 minuti fa, Bari" },
+    { "initial": "C", "name": "Claudia V.", "message": " ha completato l'ordine in 30 secondi", "time": "33 minuti fa, Genova" }
+  ],
+  "headline": {
+    "rating_label": "★★★★★ 4,8/5 — Oltre 3.842 clienti soddisfatti",
+    "title": "Taglia erba alta, arbusti e bordi in pochi minuti — senza cavi, senza benzina, senza fatica",
+    "subtitle": "HyperTrimmer™ 3000 è il tagliaerba a batteria 48V che fa quello che il decespugliatore tradizionale non riesce: erba alta, sterpaglie, bordi e angoli stretti. 6 ore di autonomia con doppia batteria inclusa.",
+    "image_alt": "HyperTrimmer™ 3000 — kit completo con batterie, dischi e accessori"
+  },
+  "bullets": [
+    { "text": "Motore brushless da 48V — taglia erba alta, arbusti spessi e vegetazione folta senza perdere potenza" },
+    { "text": "Doppia batteria al litio inclusa — fino a 6 ore di autonomia, lavora tutto il giorno senza fermarti" },
+    { "text": "3 sistemi di taglio intercambiabili — filo in nylon, lama metallica e disco circolare per ogni tipo di lavoro" },
+    { "text": "Solo 2,8 kg + manico telescopico regolabile — massimo comfort anche dopo ore di utilizzo" },
+    { "text": "Senza cavi, senza benzina, senza manutenzione — accendi e taglia, ovunque tu sia in giardino" },
+    { "text": "Perfetto per bordi, recinzioni, vialetti e angoli — arriva dove il tagliaerba normale non può" },
+    { "text": "Cintura ergonomica + protezione piante incluse — distribuisce il peso e protegge fiori e decorazioni" }
+  ],
+  "price": {
+    "label": "OFFERTA SPECIALE -50%",
+    "anchor": "159,80",
+    "final": "79,90",
+    "currency": "€",
+    "discount": "-50%",
+    "benefits": [
+      "✓ Consegna in 24/48h",
+      "✓ Pagamento alla consegna",
+      "✓ Garanzia 30 giorni"
+    ]
+  },
+  "incentive_badges": [
+    { "icon": "🚚", "title": "Spedizione gratuita", "sub": "in 24/48 ore", "variant": "green" },
+    { "icon": "💵", "title": "Pagamento alla consegna", "sub": "nessun anticipo", "variant": "blue" },
+    { "icon": "🛡️", "title": "Garanzia 30 giorni", "sub": "soddisfatti o rimborsati", "variant": "yellow" }
+  ],
+  "scarcity_text": "⚠️ Restano solo 14 pezzi al prezzo scontato. Conferma ora per non perdere l'offerta.",
+  "form": {
+    "title": "COMPLETA L'ORDINE IN 30 SECONDI",
+    "subtitle": "Compila il modulo qui sotto. Verrai contattato entro 1 ora per confermare consegna e indirizzo.",
+    "fields": {
+      "name_label": "Nome e cognome *",
+      "name_placeholder": "Es. Mario Rossi",
+      "name_error": "Inserisci nome e cognome (almeno 3 caratteri)",
+      "phone_label": "Numero di telefono *",
+      "phone_placeholder": "Es. 333 1234567",
+      "phone_error": "Inserisci un numero di telefono valido",
+      "address_label": "Indirizzo di consegna *",
+      "address_placeholder": "Via, civico, città, CAP",
+      "address_error": "Inserisci un indirizzo completo (almeno 10 caratteri)"
+    },
+    "cta_button": "✓ CONFERMA L'ORDINE — 79,90€",
+    "submitting_label": "Invio in corso...",
+    "trust_below": "★★★★★ Valutato 4,8/5 da oltre 3.842 clienti soddisfatti",
+    "secure_note": "🔒 I tuoi dati sono protetti. Non spam, non telemarketing, solo conferma ordine."
+  },
+  "guarantees": [
+    { "icon": "🚚", "title": "Consegna 24/48h", "sub": "Spedizione gratuita ovunque in Italia" },
+    { "icon": "💵", "title": "Paghi alla consegna", "sub": "Solo quando ricevi il prodotto" },
+    { "icon": "↩️", "title": "Reso 30 giorni", "sub": "Soddisfatti o rimborsati" },
+    { "icon": "🛡️", "title": "Garanzia 24 mesi", "sub": "Su difetti di fabbrica" }
+  ],
+  "macro_review": {
+    "photo_alt": "Marco — giardiniere professionista da 15 anni",
+    "quote": "«Ho lavorato 15 anni come giardiniere professionista e provo decespugliatori da una vita. HyperTrimmer™ 3000 è il primo a batteria che taglia erba alta e arbusti veri come uno a benzina. La doppia batteria mi fa lavorare 5-6 ore senza fermarmi. Lo consiglio anche ai miei clienti privati.»",
+    "author": "Marco F.",
+    "credentials": "Giardiniere professionista, Provincia di Verona",
+    "stars": "★★★★★"
+  },
+  "features": [
+    {
+      "label": "Caratteristica n°1",
+      "title": "Motore brushless 48V che taglia tutto, senza arrendersi",
+      "text": "Il motore brushless raggiunge fino a 9.000 giri/min e mantiene la potenza costante anche su erba alta, sterpaglie e tulpinii dure. Niente cali di potenza come sui modelli economici: HyperTrimmer™ 3000 lavora come un decespugliatore a benzina, ma senza il rumore e senza il fumo.",
+      "image_alt": "Motore brushless 48V"
+    },
+    {
+      "label": "Caratteristica n°2",
+      "title": "Doppia batteria 48V — fino a 6 ore di lavoro continuo",
+      "text": "Nella confezione trovi 2 batterie al litio da 48V con caricabatterie rapido. Mentre una è in uso, l'altra si ricarica: zero pause, zero attese. Più di 6 ore di autonomia totale per finire qualsiasi giardino in una sola sessione di lavoro.",
+      "image_alt": "Doppia batteria al litio inclusa"
+    },
+    {
+      "label": "Caratteristica n°3",
+      "title": "3 teste di taglio intercambiabili — un attrezzo per tutto",
+      "text": "Filo in nylon per erba e bordi rifiniti. Lama a 3 punte per erba alta e sterpaglie. Disco metallico circolare per arbusti e rami fino a 2 cm. Cambi la testa in 30 secondi senza attrezzi: un solo prodotto sostituisce 3 macchine diverse.",
+      "image_alt": "3 sistemi di taglio: filo, lama, disco"
+    }
+  ],
+  "competitor_destruction": {
+    "title": "HyperTrimmer™ 3000 vs decespugliatore tradizionale a benzina",
+    "subtitle": "Perché sempre più giardinieri stanno passando alla batteria",
+    "headers": ["Decespugliatore a benzina", "HyperTrimmer™ 3000"],
+    "rows": [
+      { "bad": "Pesa 7-9 kg, schiena distrutta dopo 1 ora", "good": "Solo 2,8 kg, lavori ore senza affaticarti" },
+      { "bad": "Rumore 95+ dB, devi indossare cuffie", "good": "Silenzioso, lavori in qualsiasi orario" },
+      { "bad": "Benzina + olio + manutenzione costante", "good": "Solo batteria — accendi e taglia" },
+      { "bad": "Difficile partire a freddo, motore capriccioso", "good": "Avvio istantaneo con grilletto" },
+      { "bad": "Una sola testa di taglio (filo)", "good": "3 teste intercambiabili in 30 secondi" },
+      { "bad": "Costo: 250-450€ + carburante annuo", "good": "79,90€ tutto incluso, zero costi annui" },
+      { "bad": "Inquinante, vietato in alcune zone urbane", "good": "Zero emissioni, usabile ovunque" }
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Giorgio T.",
+      "location": "Verona, Italia",
+      "stars": "★★★★★",
+      "title": "Finalmente uno che taglia anche le sterpaglie!",
+      "text": "L'ho usato su erba alta quasi un metro nel mio orto e su rovi pieni di spine. Taglia tutto senza inceppi, in 25 minuti ho finito una zona dove prima ci volevano ore con il decespugliatore a benzina. E zero benzina sui pantaloni.",
+      "photo_alt": "Giorgio — Verona",
+      "verified": true
+    },
+    {
+      "name": "Laura B.",
+      "location": "Milano, Italia",
+      "stars": "★★★★★",
+      "title": "6 ore di autonomia vera, mai successo prima",
+      "text": "Avevo paura che la batteria durasse poco come sugli attrezzi cinesi che avevo provato. Invece ho lavorato 5 ore filate e mi è rimasta una batteria carica nuova. Il kit è completo, la cintura è comoda. Vale ogni euro.",
+      "photo_alt": "Laura — Milano",
+      "verified": true
+    },
+    {
+      "name": "Andrea P.",
+      "location": "Bologna, Italia",
+      "stars": "★★★★★",
+      "title": "Bordi, angoli, recinzioni — fa tutto",
+      "text": "Avevo un decespugliatore vecchio che non riusciva a entrare negli angoli. Con HyperTrimmer™ 3000 rifinisco bordi vicino al muro, sotto le siepi, lungo la recinzione in pochi minuti. Senza cavi che si impigliano. Il giardino non era mai stato così pulito.",
+      "photo_alt": "Andrea — Bologna",
+      "verified": true
+    },
+    {
+      "name": "Silvia M.",
+      "location": "Napoli, Italia",
+      "stars": "★★★★★",
+      "title": "Leggero, mio marito non ce la faceva più con quello a benzina",
+      "text": "Mio marito ha 68 anni e quello vecchio era diventato troppo pesante. HyperTrimmer™ 3000 pesa quanto una bottiglia d'acqua piena, lo gestisce benissimo. È contento e finalmente il giardino è in ordine.",
+      "photo_alt": "Silvia — Napoli",
+      "verified": true
+    },
+    {
+      "name": "Roberto L.",
+      "location": "Bari, Italia",
+      "stars": "★★★★★",
+      "title": "Arrivato in 36 ore, montato in 5 minuti",
+      "text": "Ordinato lunedì, arrivato mercoledì mattina. Pacco completo: 2 batterie, caricabatterie, 3 teste, cintura, occhiali. Montaggio velocissimo. Pago alla consegna senza problemi, corriere educato. Lo consiglio.",
+      "photo_alt": "Roberto — Bari",
+      "verified": true
+    },
+    {
+      "name": "Francesca D.",
+      "location": "Firenze, Italia",
+      "stars": "★★★★★",
+      "title": "Finalmente posso curare il giardino da sola",
+      "text": "Sono una donna di 55 anni, da quando è mancato mio marito non riuscivo più a usare il suo decespugliatore. Ho preso questo perché leggero. È perfetto: l'ho usato per tutto il giardino, batteria che dura, taglio pulito. Felicissima.",
+      "photo_alt": "Francesca — Firenze",
+      "verified": true
+    }
+  ],
+  "package_content": {
+    "title": "Cosa trovi nel pacco HyperTrimmer™ 3000",
+    "subtitle": "Tutto incluso — pronto all'uso in 5 minuti",
+    "image_alt": "Contenuto della confezione HyperTrimmer™ 3000",
+    "items": [
+      { "text": "1× HyperTrimmer™ 3000 — corpo macchina con motore brushless 48V" },
+      { "text": "2× Batterie al litio 48V (a lunga durata, fino a 6h totali)" },
+      { "text": "1× Caricabatterie rapido" },
+      { "text": "1× Bobina con filo da taglio in nylon (per erba e bordi)" },
+      { "text": "1× Lama a 3 punte in acciaio (per sterpaglie ed erba alta)" },
+      { "text": "1× Disco circolare metallico (per arbusti e rami)" },
+      { "text": "1× Cintura ergonomica con imbottitura" },
+      { "text": "1× Protezione integrata per piante e fiori" },
+      { "text": "1× Paio di guanti da lavoro", "bonus": true },
+      { "text": "1× Occhiali di protezione", "bonus": true },
+      { "text": "1× Manuale d'uso in italiano + chiave di montaggio" },
+      { "text": "Garanzia ufficiale 24 mesi inclusa", "bonus": true }
+    ]
+  },
+  "incentive_2": {
+    "title": "⏰ ULTIMA POSSIBILITÀ — L'offerta scade oggi",
+    "text": "Il prezzo di lancio a 79,90€ è valido solo fino a esaurimento scorte. Dopodiché il prezzo torna a 159,80€. Non perdere l'occasione — conferma il tuo ordine adesso e ricevilo in 24/48h."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Posso davvero pagare alla consegna, senza carta?",
+        "a": "Sì, il pagamento alla consegna è il nostro metodo standard. Quando arriva il corriere, paghi in contanti l'importo dell'ordine. Nessun anticipo, nessuna carta richiesta. Più sicuro così: vedi il prodotto prima di pagarlo."
+      },
+      {
+        "q": "Quanto dura davvero la batteria?",
+        "a": "Le 2 batterie incluse offrono fino a 6 ore di autonomia totale. Su un uso intenso (erba alta, arbusti) durano circa 4 ore. Il caricabatterie rapido riempie una batteria in circa 60 minuti, quindi puoi sempre alternarle."
+      },
+      {
+        "q": "Funziona anche su sterpaglie e arbusti grossi?",
+        "a": "Sì. Cambiando testa di taglio (lama a 3 punte o disco metallico) tagli anche rami fino a 2 cm di diametro, sterpaglie, ortica e rovi. Il motore brushless 48V mantiene la potenza costante anche sotto sforzo."
+      },
+      {
+        "q": "Se non sono soddisfatto posso restituirlo?",
+        "a": "Certo. Hai 30 giorni dalla consegna per restituirlo se non ti soddisfa. Reso gratuito, rimborso completo. Nessuna domanda, nessuna penale. Garanzia ufficiale di 24 mesi su difetti di fabbrica."
+      },
+      {
+        "q": "I miei dati personali sono al sicuro?",
+        "a": "Assolutamente sì. Usiamo i tuoi dati solo per gestire la consegna e contattarti per la conferma. Niente spam, niente telemarketing, niente cessione a terzi. Conformi al GDPR. Puoi vedere la nostra Privacy Policy nel footer."
+      },
+      {
+        "q": "Quanto tempo ci mette la consegna?",
+        "a": "24-48 ore lavorative dopo la conferma telefonica. La spedizione è gratuita ovunque in Italia. Riceverai un SMS con il numero di tracking quando il corriere parte."
+      },
+      {
+        "q": "Come faccio a confermare l'ordine adesso?",
+        "a": "È semplicissimo. Compila il modulo qui sopra con nome, telefono e indirizzo. Un nostro operatore ti chiamerà entro 1 ora per confermare. Ricevi HyperTrimmer™ 3000 in 24/48h e paghi solo alla consegna. ✓ CONFERMA ORA"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Prodotti utili per la vita quotidiana, consegna in 24-48 ore con pagamento alla consegna.",
+    "company_heading": "Azienda",
+    "policies_heading": "Informazioni legali",
+    "contact_heading": "Contatti",
+    "company_info": [
+      "<strong>Netmart LLC</strong>",
+      "County of Sussex 16192 Coastal Hwy",
+      "Lewes, DE 19958-3608, United States"    ]
+  }
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18373055367"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18373055367');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Objednávka přijata — Vyčkejte na potvrzovací hovor | YardMax™</title>
+<meta name="description" content="Vaše objednávka YardMax™ byla zaregistrována. Zbývá poslední krok: přijměte potvrzovací hovor od našeho operátora.">
+<meta name="contact" content="info@homepickdock.com">
+<meta name="theme-color" content="#16a34a">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="/assets/css/variables.css">
+<link rel="stylesheet" href="/assets/css/reset.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+
+<style>
+body { background: #f8fafc; }
+
+.ty-page {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+/* CHECKMARK CIRCLE */
+.ty-check {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 2px solid var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto 1.5rem;
+  font-size: 2rem;
+  color: var(--color-primary);
+  font-weight: 800;
+  box-shadow: 0 4px 12px -4px rgba(22,163,74,0.25);
+}
+
+/* HEADLINE + SUBTITLE */
+.ty-headline {
+  font-size: 1.625rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 0.875rem;
+  letter-spacing: -0.02em;
+}
+.ty-subhead {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 480px) { .ty-headline { font-size: 1.875rem; } }
+
+/* HERO IMAGE — aspect-ratio matches the source image (2848x1331) */
+.ty-hero {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  aspect-ratio: 2848 / 1331;
+  background: var(--color-bg-alt);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 16px -8px rgba(0,0,0,0.15);
+}
+.ty-hero img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+
+/* ACTION BOX (yellow) */
+.ty-action {
+  background: #fef9e7;
+  border: 1.5px solid #f5d07a;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.ty-action__eyebrow {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #92400e;
+  margin-bottom: 0.625rem;
+  text-align: center;
+}
+.ty-action__title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0.625rem;
+  color: var(--color-text);
+}
+.ty-action__body {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+.ty-action__warning {
+  text-align: center;
+  color: var(--color-urgency);
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+/* SMALL INFO BOX */
+.ty-box {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+.ty-box__header {
+  padding: 0.625rem 1rem;
+  background: #f8fafc;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ty-box__body {
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+}
+
+/* HOURS BOX */
+.ty-hours-line {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+.ty-hours-line strong { font-weight: 700; }
+
+/* STEPS LIST */
+.ty-steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: ty-step;
+}
+.ty-steps-list li {
+  display: flex;
+  gap: 0.625rem;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  counter-increment: ty-step;
+}
+.ty-steps-list li:last-child { border-bottom: none; padding-bottom: 0; }
+.ty-steps-list li::before {
+  content: counter(ty-step) ".";
+  font-weight: 800;
+  color: var(--color-primary);
+  flex-shrink: 0;
+  min-width: 1.25rem;
+}
+
+/* TRUST BADGES */
+.ty-trust {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+.ty-trust__badge {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 9999px;
+  padding: 0.4rem 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+</style>
+
+<script>
+window.SITE_CONFIG = {
+  GEO: 'cz',
+  PRODUCT_SLUG: 'yardmax-3190',
+  CURRENCY: 'CZK',
+  PRICE: 1499.0,
+  GOOGLE_ADS_CONVERSION_SEND_TO: 'AW-18373055367/cCCpCM3jueAcEIen-rhE',
+  CONVERSION_VALUE: 18.0,
+  CONVERSION_CURRENCY: 'CZK',
+  META_PIXEL_ID: '',
+  GOOGLE_TAG_ID: '',
+  GOOGLE_ADS_CONVERSION_ID: '',
+  TY_CONVERSION_LABEL: '',
+  COOKIE_TEXT: 'Používáme technické a cookies třetích stran ke zlepšení vašeho zážitku a pro analytiku.',
+  COOKIE_ACCEPT: 'Přijmout',
+  COOKIE_LEARN: 'Zjistit více'
+};
+</script>
+<script src="/assets/js/tracking.js" defer></script>
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="site-logo" aria-label="homepickdock.com home">
+      <span class="site-logo__text"><span class="site-logo__text-primary">homepickdock</span><span class="site-logo__text-accent">.com</span></span>
+    </a>
+  </div>
+</header>
+
+<main class="ty-page">
+
+  <div class="ty-check" aria-hidden="true">✓</div>
+
+  <h1 class="ty-headline">Vaše objednávka byla úspěšně zaregistrována!</h1>
+  <p class="ty-subhead">Skvělé — vaše objednávka <strong>YardMax™</strong> se zpracovává. Zbývá jen <strong>poslední krok</strong> k dokončení a odeslání.</p>
+
+  <figure class="ty-hero">
+    <img src="/assets/img/site/thank_you_draftin.png" alt="Tým homepickdock při práci: call centrum a logistika na dobírku" width="2848" height="1331" loading="lazy" decoding="async">
+  </figure>
+
+  <!-- ACTION REQUIRED -->
+  <section class="ty-action">
+    <div class="ty-action__eyebrow">👇 Co teď musíte udělat</div>
+    <h2 class="ty-action__title">📞 Přijměte potvrzovací hovor</h2>
+    <p class="ty-action__body">Operátor vás kontaktuje <strong>v následujících hodinách</strong>, aby potvrdil vaši objednávku.</p>
+    <p class="ty-action__warning">Pokud hovor nepřijmete, objednávka bude automaticky zrušena.</p>
+  </section>
+
+  <!-- CONTACT HOURS -->
+  <section class="ty-box">
+    <div class="ty-box__header">🕒 Kontaktní hodiny</div>
+    <div class="ty-box__body">
+      <div class="ty-hours-line"><strong>Pondělí – Sobota</strong> · 9:00 – 18:00</div>
+    </div>
+  </section>
+
+  <!-- WHAT HAPPENS NEXT -->
+  <section class="ty-box">
+    <div class="ty-box__header">📋 Co bude dál</div>
+    <div class="ty-box__body">
+      <ol class="ty-steps-list">
+        <li>Přijměte hovor a <strong>potvrďte své údaje</strong></li>
+        <li>Vaše objednávka bude odeslána do <strong>24–48 hodin</strong></li>
+        <li>Doručení domů a <strong>platba na dobírku</strong></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- TRUST BADGES -->
+  <div class="ty-trust">
+    <span class="ty-trust__badge">🔒 Platba na dobírku</span>
+    <span class="ty-trust__badge">🛡️ Záruka 24 měsíců</span>
+    <span class="ty-trust__badge">🔐 Ochrana SSL</span>
+  </div>
+
+</main>
+
+<footer class="site-footer"><div class="container">
+  <div class="site-footer__grid">
+    <div>
+      <a href="/" class="site-logo">
+        <span class="site-logo__text" style="display:inline"><span class="site-logo__text-primary">homepickdock</span><span class="site-logo__text-accent">.com</span></span>
+      </a>
+    </div>
+    <div>
+      <h4 class="site-footer__heading">Informace</h4>
+      <ul class="site-footer__list">
+        <li><a href="/cz/about-us.html">O nás</a></li>
+        <li><a href="/cz/contact-us.html">Kontaktujte nás</a></li>
+        <li><a href="/cz/privacy-policy.html">Zásady ochrany osobních údajů</a></li>
+        <li><a href="/cz/terms-conditions.html">Obchodní podmínky</a></li>
+        <li><a href="/cz/cookie-policy.html">Zásady cookies</a></li>
+        <li><a href="/cz/shipping-policy.html">Dopravní podmínky</a></li>
+        <li><a href="/cz/refund-policy.html">Reklamační řád</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="site-footer__heading">Kontakt</h4>
+      <ul class="site-footer__list">
+        <li><strong>Netmart LLC</strong></li>
+        <li>County of Sussex 16192 Coastal Hwy, Lewes, DE 19958-3608, United States</li>
+        <li><a href="mailto:info@homepickdock.com">info@homepickdock.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="site-footer__bottom">© <span data-year>2026</span> <strong>Netmart LLC</strong> — Všechna práva vyhrazena. <a href="/">homepickdock.com</a></div>
+</div></footer>
+
+<!-- Event snippet for Purchase - acc 884 - vale conversion page -->
+<script>
+  window.addEventListener('load', function () {
+    if (window.fireMeersmartThankYouConversion) {
+      window.fireMeersmartThankYouConversion({
+        send_to: 'AW-18373055367/cCCpCM3jueAcEIen-rhE',
+        value: 18.0,
+        currency: 'EUR'
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
