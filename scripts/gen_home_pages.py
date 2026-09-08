@@ -24,7 +24,7 @@ HREFLANG = {
 }
 
 FAMILY_ORDER = [
-    "hypertrimmer", "glacierair", "fold360", "vacuza", "yardmax", "dreamora",
+    "hypertrimmer", "glacierair", "fold360", "vacuza", "yardmax", "dreamora", "mini-saw",
 ]
 
 LEGAL_PAGES = (
